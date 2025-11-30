@@ -1,0 +1,28 @@
+# Awards Data
+# To add a new award, copy the template below and fill in the details
+# Icons available: fa-trophy, fa-medal, fa-star, fa-award, fa-certificate
+# ---
+# - title: "Award Title"
+#   organization: "Organization Name"
+#   year: 2024
+#   icon: "fa-trophy"
+#   description: "Brief description of the award"
+# ---
+
+- title: "Best Paper Award"
+  organization: "International Conference on Innovation"
+  year: 2024
+  icon: "fa-trophy"
+  description: "Recognized for outstanding research contribution and innovation."
+
+- title: "Excellence in Research"
+  organization: "University Research Council"
+  year: 2023
+  icon: "fa-medal"
+  description: "Awarded for exceptional research performance and impact."
+
+- title: "Rising Star Award"
+  organization: "Technology Society"
+  year: 2023
+  icon: "fa-star"
+  description: "Recognition for promising early-career achievements."

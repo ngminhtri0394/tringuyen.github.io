@@ -1,0 +1,144 @@
+# Publications Data
+# To add a new publication, copy the template below and fill in the details
+# ---
+# - title: "Your Paper Title"
+#   authors: "Author 1, Author 2, Author 3"
+#   venue: "Journal or Conference Name"
+#   year: 2025
+#   description: "Brief description of the paper"
+#   doi: "https://doi.org/..."
+#   pdf: "link-to-pdf" (optional)
+# ---
+
+# 2025 Publications
+- title: "The search for superionic solid-state electrolytes using a physics-informed generative model"
+  authors: "Nguyen, Tri Minh and Tawfik, Sherif Abdulkader and Tran, Truyen and Gupta, Sunil and Rana, Santu and Venkatesh, Svetha"
+  venue: "Materials Horizons"
+  year: 2025
+  description: "A physics-informed generative model approach for discovering superionic solid-state electrolytes with enhanced ionic conductivity."
+  doi: "https://doi.org/10.26434/chemrxiv-2025-rzmm5-v2"
+
+- title: "Efficient Symmetry-Aware Materials Generation via Hierarchical Generative Flow Networks"
+  authors: "Nguyen, Tri Minh and Tawfik, Sherif Abdulkader and Tran, Truyen and Gupta, Sunil and Rana, Santu and Venkatesh, Svetha"
+  venue: "Digital Discovery"
+  year: 2025
+  description: "Novel hierarchical generative flow networks that incorporate crystallographic symmetries for efficient materials generation."
+  doi: "https://doi.org/10.48550/arXiv.2411.04323"
+
+- title: "Improving Disordered Crystal Modeling with Nonlinear Atomic Embedding for Superconducting Materials"
+  authors: "Nguyen, Tri Minh and Le, Hai Nam and Tawfik, Sherif Abdulkader and Tran, Truyen and Gupta, Sunil and Venkatesh, Svetha"
+  venue: ""
+  year: 2025
+  description: "Advanced nonlinear atomic embedding techniques for improved modeling of disordered crystal structures in superconducting materials."
+  doi: "https://doi.org/10.26434/chemrxiv-2025-6x083"
+
+- title: "Scale matters: simulation of nanoscopic dendrite initiation in the lithium solid electrolyte interphase using a machine learning potential"
+  authors: "Tawfik, Sherif Abdulkader and La, Linh and Nguyen, Tri and Tran, Truyen and Gupta, Sunil and Venkatesh, Svetha"
+  venue: "Journal of Materials Chemistry A"
+  year: 2025
+  description: "Machine learning potential-based simulations revealing scale-dependent mechanisms of dendrite initiation in lithium batteries."
+  doi: "https://doi.org/10.1039/D4TA08189G"
+
+- title: "Early Cycle Life Prediction of Lithium-Metal Batteries with the Aid of Machine Learning"
+  authors: "Eftekharnia, Mojtaba and Nguyen, Tri and Forsyth, Maria and Tran, Truyen and Howlett, Patrick C and Kerr, Robert"
+  venue: "Batteries & Supercaps"
+  year: 2025
+  description: "Machine learning approaches for predicting the cycle life of lithium-metal batteries in their early stages."
+  doi: "https://doi.org/10.1002/batt.202500261"
+
+- title: "Impact of chirality on nanotube fracture strain: comprehensive machine learning potential calculations"
+  authors: "Tawfik, Sherif Abdulkader and Nguyen, Tri and Tran, Truyen and Gupta, Sunil and Venkatesh, Svetha"
+  venue: "Nanoscale"
+  year: 2025
+  description: "Comprehensive analysis of how chirality affects nanotube fracture properties using machine learning potentials."
+  doi: "https://doi.org/10.26434/chemrxiv-2025-rzmm5-v2"
+
+# 2024 Publications
+- title: "Embedding material graphs using the electron-ion potential: Application to material fracture"
+  authors: "Sherif Abdulkader Tawfik, Tri Minh Nguyen, Salvy P Russo, Truyen Tran, Sunil Gupta, Svetha Venkatesh"
+  venue: "Digital Discovery"
+  year: 2024
+  description: "Novel approach to embedding material graphs using electron-ion potentials with applications to fracture mechanics."
+  doi: "https://doi.org/10.1039/D4DD00123K"
+
+# 2023 Publications
+- title: "Learning to discover medicines"
+  authors: "Nguyen, Minh-Tri and Nguyen, Thin and Tran, Truyen"
+  venue: "International Journal of Data Science and Analytics, vol. 16, no. 3, pp. 301-316"
+  year: 2023
+  description: "Machine learning approaches for drug discovery, focusing on learning representations and patterns for medicine development."
+  doi: "https://doi.org/10.1007/s41060-023-00301-5"
+
+- title: "The application of machine learning in micrometeoroid and orbital debris impact protection and risk assessment for spacecraft"
+  authors: "Ryan, Shannon and Sushma, Neeraj Mohan and Le, Hung and Kumar, AV Arun and Berk, Julian and Nguyen, TM and Rana, Santu and Kandanaarachchi, Sevvandi and Venkatesh, Svetha"
+  venue: "International Journal of Impact Engineering, vol. 181, pp. 104727"
+  year: 2023
+  description: "Application of machine learning techniques for assessing and protecting spacecraft from micrometeoroid and orbital debris impacts."
+  doi: "https://doi.org/10.1016/j.ijimpeng.2023.104727"
+
+- title: "Hierarchical GFlownet for Crystal Structure Generation"
+  authors: "Nguyen, Tri Minh and Tawfik, Sherif Abdulkader and Tran, Truyen and Gupta, Sunil and Rana, Santu and Venkatesh, Svetha"
+  venue: "AI for Accelerated Materials Design-NeurIPS 2023 Workshop"
+  year: 2023
+  description: "Hierarchical generative flow networks for crystal structure generation in materials science applications."
+  pdf: "https://openreview.net/forum?id=HipfLjyLUW"
+
+# 2022 Publications
+- title: "Mitigating cold start problems in drug-target affinity prediction with interaction knowledge transferring"
+  authors: "Nguyen, Tri Minh and Nguyen, Thin and Tran, Truyen"
+  venue: "Briefings in Bioinformatics"
+  year: 2022
+  description: "Novel approach to address cold start problems in drug-target affinity prediction through knowledge transfer techniques."
+  doi: "https://doi.org/10.1093/bib/bbac190"
+
+- title: "Explaining black box drug target prediction through model agnostic counterfactual samples"
+  authors: "Nguyen, Tri Minh and Quinn, Thomas P and Nguyen, Thin and Tran, Truyen"
+  venue: "IEEE/ACM Transactions on Computational Biology and Bioinformatics, vol. 20, no. 2, pp. 1020-1029"
+  year: 2022
+  description: "Model-agnostic explanation methods using counterfactual samples for interpreting drug target prediction models."
+  doi: "https://doi.org/10.1109/TCBB.2022.3190266"
+
+- title: "Causality-aided Recommendation Systems"
+  authors: "Nguyen, Tri and Mohammed, Azhar and Duong, Bao and Nguyen, Thin"
+  venue: "2022 International Joint Conference on Neural Networks (IJCNN), pp. 1-8"
+  year: 2022
+  description: "Integration of causality principles into recommendation systems for improved performance and interpretability."
+  doi: "https://doi.org/10.1109/IJCNN55064.2022.9892591"
+
+# 2021 Publications
+- title: "Gefa: early fusion approach in drug-target affinity prediction"
+  authors: "Nguyen, Tri Minh and Nguyen, Thin and Le, Thao Minh and Tran, Truyen"
+  venue: "IEEE/ACM transactions on computational biology and bioinformatics, vol. 19, no. 2, pp. 718-728"
+  year: 2021
+  description: "Early fusion approach for drug-target affinity prediction, combining multiple molecular representations."
+  doi: "https://doi.org/10.1109/TCBB.2021.3094217"
+
+- title: "GraphDTA: predicting drug--target binding affinity with graph neural networks"
+  authors: "Nguyen, Thin and Le, Hang and Quinn, Thomas P and Nguyen, Tri and Le, Thuc Duy and Venkatesh, Svetha"
+  venue: "Bioinformatics, vol. 37, no. 8, pp. 1140-1147"
+  year: 2021
+  description: "Graph neural network approach for predicting drug-target binding affinity using molecular graph representations."
+  doi: "https://doi.org/10.1093/bioinformatics/btaa921"
+
+- title: "Counterfactual Explanation with Multi-Agent Reinforcement Learning for Drug Target Prediction"
+  authors: "Nguyen, Tri Minh and Quinn, Thomas P and Nguyen, Thin and Tran, Truyen"
+  venue: "ICML'21 Workshop on Interpretable Machine Learning in Healthcare"
+  year: 2021
+  description: "Multi-agent reinforcement learning approach for generating counterfactual explanations in drug target prediction."
+  pdf: "https://icml.cc/virtual/2021/12723"
+
+# 2020 Publications
+- title: "Saliency detection in human crowd images of different density levels using attention mechanism"
+  authors: "Nguyen, Minh Tri and Siritanawan, Prarinya and Kotani, Kazunori"
+  venue: "Signal Processing: Image Communication, vol. 88, pp. 115976"
+  year: 2020
+  description: "Attention mechanism-based approach for saliency detection in human crowd images across different density levels."
+  doi: "https://doi.org/10.1016/j.image.2020.115976"
+
+# 2019 Publications
+- title: "Saliency Map Extraction in Human Crowd RGB Data"
+  authors: "Nguyen, Minh Tri and Siritanawan, Prarinya and Kotani, Kazunori"
+  venue: "2019 58th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE), pp. 941-946"
+  year: 2019
+  description: "Extraction of saliency maps from human crowd RGB data for crowd analysis and understanding."
+  doi: "https://doi.org/10.23919/SICE.2019.8859898"

@@ -1,0 +1,28 @@
+<!-- Talks Section -->
+<section id="talks" class="section">
+    <div class="container">
+        <h2 class="section-title">Talks & Presentations</h2>
+        <div class="talks-timeline">
+            {% for talk in site.data.talks %}
+            <div class="talk-item">
+                <div class="talk-date">{{ talk.year }}</div>
+                <div class="talk-content">
+                    <h3>{{ talk.title }}</h3>
+                    <p class="talk-venue">{{ talk.venue }}</p>
+                    {% if talk.description %}
+                    <p class="talk-description">{{ talk.description }}</p>
+                    {% endif %}
+                    <div class="talk-links">
+                        {% if talk.slides %}
+                        <a href="{{ talk.slides }}" class="btn btn-small">Slides</a>
+                        {% endif %}
+                        {% if talk.video %}
+                        <a href="{{ talk.video }}" class="btn btn-small">Video</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

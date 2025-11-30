@@ -1,0 +1,21 @@
+<!-- Awards Section -->
+<section id="awards" class="section">
+    <div class="container">
+        <h2 class="section-title">Awards & Recognition</h2>
+        <div class="awards-grid">
+            {% for award in site.data.awards %}
+            <div class="award-item">
+                <div class="award-icon">
+                    <i class="fas {{ award.icon | default: 'fa-trophy' }}"></i>
+                </div>
+                <h3>{{ award.title }}</h3>
+                <p class="award-organization">{{ award.organization }}</p>
+                <p class="award-year">{{ award.year }}</p>
+                {% if award.description %}
+                <p class="award-description">{{ award.description }}</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

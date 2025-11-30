@@ -1,0 +1,26 @@
+# CV Data
+# Edit this file to update your CV information
+
+# Link to downloadable PDF CV
+pdf_url: "#"
+
+# Education entries
+education:
+  - degree: "Ph.D. in Computer Science"
+    institution: "University Name"
+    year: "2020-2024"
+  
+  - degree: "M.S. in Computer Science"
+    institution: "University Name"
+    year: "2018-2020"
+  
+  - degree: "B.S. in Computer Science"
+    institution: "University Name"
+    year: "2014-2018"
+
+# Optional: Add more CV sections here
+# experience:
+#   - title: "Researcher"
+#     organization: "Research Institute"
+#     period: "2024-Present"
+#     description: "Description of role"

@@ -1,0 +1,26 @@
+<!-- Publications Section -->
+<section id="publications" class="section">
+    <div class="container">
+        <h2 class="section-title">Publications</h2>
+        <div class="publications-grid">
+            {% for pub in site.data.publications %}
+            <div class="publication-item">
+                <h3>{{ pub.title }}</h3>
+                <p class="publication-authors">{{ pub.authors }}</p>
+                <p class="publication-venue">{{ pub.venue }}{% if pub.year %}, {{ pub.year }}{% endif %}</p>
+                {% if pub.description %}
+                <p class="publication-description">{{ pub.description }}</p>
+                {% endif %}
+                <div class="publication-links">
+                    {% if pub.doi %}
+                    <a href="{{ pub.doi }}" class="btn btn-small" target="_blank">DOI</a>
+                    {% endif %}
+                    {% if pub.pdf %}
+                    <a href="{{ pub.pdf }}" class="btn btn-small" target="_blank">PDF</a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,16 @@
+<!-- Blog Posts Section -->
+<section id="blog" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Blog Posts</h2>
+        <div class="blog-grid">
+            {% for post in site.posts %}
+            <article class="blog-post">
+                <div class="blog-date">{{ post.date | date: "%B %Y" }}</div>
+                <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+                <a href="{{ post.url | relative_url }}" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>

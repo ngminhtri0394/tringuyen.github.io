@@ -1,0 +1,21 @@
+<!-- Grants Section -->
+<section id="grants" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Grants & Funding</h2>
+        <div class="grants-list">
+            {% for grant in site.data.grants %}
+            <div class="grant-item">
+                <div class="grant-header">
+                    <h3>{{ grant.title }}</h3>
+                    <span class="grant-amount">{{ grant.amount }}</span>
+                </div>
+                <p class="grant-agency">{{ grant.agency }}</p>
+                <p class="grant-period">{{ grant.period }}</p>
+                {% if grant.description %}
+                <p class="grant-description">{{ grant.description }}</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,23 @@
+# Talks Data
+# To add a new talk, copy the template below and fill in the details
+# ---
+# - title: "Talk Title"
+#   venue: "Conference or Event Name"
+#   year: 2025
+#   description: "Brief description of the talk"
+#   slides: "link-to-slides" (optional)
+#   video: "link-to-video" (optional)
+# ---
+
+- title: "Science in the Fifth Paradigm: A Tutorial on Science Discovery with Artificial Intelligence (S5-TDAI)"
+  venue: "The Pacific Rim International Conference on Artificial Intelligence (PRICAI)"
+  year: 2025
+  description: "This tutorial provides a comprehensive overview of the emerging fifth paradigm of scientific discovery, driven by artificial intelligence. We will cover the landscape from foundational AI methodologies-including geometric deep learning, self-supervised learning, and generative models-to their application across the scientific workflow."
+  slides: "#"
+  video: "#"
+
+- title: "Machine Learning and Reasoning for Drug Discovery"
+  venue: "A tutorial @ECML-PKDD 2021"
+  year: 2021
+  description: "This tutorial reviews recent developments on drug discovery using machine learning methods."
+  slides: "https://truyentran.github.io/talks/ecml21-tute-full.pdf"

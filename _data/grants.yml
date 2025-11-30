@@ -1,0 +1,21 @@
+# Grants Data
+# To add a new grant, copy the template below and fill in the details
+# ---
+# - title: "Grant Title"
+#   amount: "$50,000"
+#   agency: "Funding Agency Name"
+#   period: "2024-2025"
+#   description: "Brief description of the grant"
+# ---
+
+- title: "Research Innovation Grant"
+  amount: "$50,000"
+  agency: "National Science Foundation"
+  period: "2024-2025"
+  description: "Funding for innovative research in emerging technologies and their applications."
+
+- title: "Early Career Development Award"
+  amount: "$25,000"
+  agency: "Technology Research Foundation"
+  period: "2023-2024"
+  description: "Support for early career researchers in technology and innovation."
